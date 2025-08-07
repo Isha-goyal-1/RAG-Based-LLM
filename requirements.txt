@@ -1,0 +1,7 @@
+streamlit
+pandas
+chromadb
+ollama
+sentence-transformers
+numpy
+requests
