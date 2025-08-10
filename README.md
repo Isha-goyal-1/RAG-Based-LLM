@@ -110,7 +110,7 @@ streamlit run RAG_Based_LLM.py
 
 ## Configuration
 
-Adjustable parameters within `app.py`:
+Adjustable parameters within `RAG_Based_LLM.py`:
 
 - **OLLAMA_EMBED_MODEL:** Ollama embedding model name (default: `"nomic-embed-text"`).
 - **OLLAMA_LLM_MODEL:** Ollama LLM model for explanations (default: `"llama2:latest"`).
