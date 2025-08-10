@@ -1,12 +1,13 @@
 # Rag_based_LLM
 
-# 🔍 Legal Search with Explanations
+# RAG-Based LLM Semantic Legal Search
 
-A powerful Streamlit web application for semantic search over legal documents with AI-generated explanations. This app combines state-of-the-art embedding models, approximate nearest neighbor (ANN) search, neural reranking, and LLM-based explanations to help users efficiently find and understand relevant legal provisions.
+A Retrieval-Augmented Generation (RAG) application for semantic legal document search with AI-powered explanations
+Built using Streamlit, Ollama, ChromaDB, Cross-Encoder reranking, and LLaMA 2 LLM.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project implements a semantic legal document search system featuring:
 
@@ -18,7 +19,7 @@ This project implements a semantic legal document search system featuring:
 
 ---
 
-## 🔎 Features
+##  Features
 
 - **Efficient Embedding & Index Caching:** Uses Streamlit's `@st.cache_resource` decorator to avoid repeated embedding computation and index rebuilding across sessions.
 - **Batch Processing with Progress Bar:** Shows real-time progress during initial embedding and indexing.
@@ -28,7 +29,7 @@ This project implements a semantic legal document search system featuring:
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - Legal researchers and practitioners seeking semantically relevant excerpts from legal text.
 - Developers exploring how to combine semantic search, neural reranking, and LLM explanation generation.
@@ -48,7 +49,7 @@ This project implements a semantic legal document search system featuring:
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8 or higher
 - Python packages:
@@ -65,7 +66,7 @@ This project implements a semantic legal document search system featuring:
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 1. Clone this repository:
     ```
@@ -84,11 +85,11 @@ This project implements a semantic legal document search system featuring:
 
 ---
 
-## 🚀 Running the App
+##  Running the App
 
 Launch the Streamlit app with:
 
-streamlit run app.py
+streamlit run RAG_Based_LLM.py
 
 
 - Enter your legal query in the input area.
@@ -98,16 +99,16 @@ streamlit run app.py
 
 ---
 
-## 📝 Project Structure
+## Project Structure
 
-- `app.py`: Main Streamlit application implementing the full search pipeline.
+- `RAG_Based_LLM.py`: Main Streamlit application implementing the full search pipeline.
 - `bns.csv`: Legal documents dataset (user-provided).
 - `logo.jpg`: Optional sidebar logo image.
 - `README.md`: Documentation and usage instructions.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Adjustable parameters within `app.py`:
 
@@ -121,7 +122,7 @@ Adjustable parameters within `app.py`:
 
 ---
 
-## 🛡️ Error Handling & Reliability
+## Error Handling & Reliability
 
 - Cached loading of embedding function and reranker models with Streamlit caching.
 - User-friendly error messages for missing CSV files or Ollama API connectivity issues.
@@ -130,7 +131,7 @@ Adjustable parameters within `app.py`:
 
 ---
 
-## 💡 Acknowledgements
+## Acknowledgements
 
 This project leverages:
 
@@ -141,25 +142,25 @@ This project leverages:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## 🤝 Contribution
+## Contribution
 
 Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
-## 🔗 Contact
+## Contact
 
-For questions or support, please contact dhaneshdalal28@gmail.com.
+For questions or support, please contact ishagoyal2040@gmail.com
 
 ---
 
-Enjoy exploring and extending your legal search with AI-powered explanations! 🚀
+Enjoy exploring and extending your legal search with AI-powered explanations!!
 
 
 
